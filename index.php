@@ -1,8 +1,8 @@
 <?php
 
+//Entry point
 
-
-require 'bootstrap.php';
+require 'core/bootstrap.php';
 
 ?>
 
