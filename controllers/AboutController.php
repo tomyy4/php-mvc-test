@@ -1,4 +1,14 @@
 <?php
 
+class AboutController {
 
-require 'views/about.view.php';
+	public function __construct() {
+		$this->index();
+	}
+	public function index() {
+		if ($_SERVER['REQUEST_URI'] === '/about') {
+			require 'views/about.view.php';
+		}
+	}
+}
+
