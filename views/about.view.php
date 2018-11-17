@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title>About</title>
 </head>
 <body>
 	<header>
-		<h1>Contact Us</h1>
+		<h1>About</h1>
 	</header>
+	<?php
+	require 'partials/nav.partial.php';
+	?>
 	<main>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -15,7 +18,8 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</main>
-
-	<!-- contact form here -->
+	<?php
+	require 'partials/footer.partial.php';
+	?>
 </body>
 </html>
