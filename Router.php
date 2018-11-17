@@ -4,10 +4,10 @@ $uri = $_SERVER['REQUEST_URI'];
 
 
 $routes = [
-	'/' => 'home.php',
-	'/robots' => 'robots.php',
-	'/about' => 'about.php',
-	'/contact' => 'contact.php' 
+	'/' => 'controllers/HomeController.php',
+	'/robots' => 'controllers/RobotsController.php',
+	'/about' => 'controllers/AboutController.php',
+	'/contact' => 'controllers/ContactController.php' 
 ];
 
 
