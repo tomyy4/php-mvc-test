@@ -8,9 +8,9 @@
 		Welcome
 	</header>
 	<nav>
-		<a href=""></a>
-		<a href=""></a>
-		<a href=""></a>
+		<a href="robots">Our robots</a>
+		<a href="about">About</a>
+		<a href="contact">Contact</a>
 	</nav>
 </body>
 </html>

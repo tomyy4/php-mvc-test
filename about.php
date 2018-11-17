@@ -7,6 +7,11 @@
 	<header>
 		<h1>About</h1>
 	</header>
+	<nav>
+		<a href="robots">Our robots</a>
+		<a href="about">About</a>
+		<a href="contact">Contact</a>
+	</nav>
 	<main>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
